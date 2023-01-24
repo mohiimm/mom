@@ -6,3 +6,13 @@ header{
 	padding:2rem 0rem;
 	color: white;
 }
+.section {
+	background-color: purple;
+	text-align: center;
+	padding:2rem 0rem;
+	color: white;
+}
+.content{
+	float: left;
+	width: 66.66%;
+}
