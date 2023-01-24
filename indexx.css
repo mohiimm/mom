@@ -64,16 +64,22 @@ font-size: 20px;
 color: black;
 	
 }
-#right{
-text-align: center;
-float: right;
-color: black;}
+.me{
+background: #636363;
+	padding: 2rem;
+	float: left;
+}
 a{color: black;
+padding: 0.5rem;
 text-decoration: none;}
 
-#active{background: #5C0D65;
+.active{background: #5C0D65;
+	padding: 2rem;
+	float: left;
+	
 }
-.navbar a:hover {
+.c1{float: right;}
+.navbar .me:hover {
 background-color: #ddd;
 color: black;
 font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
