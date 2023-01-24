@@ -41,7 +41,7 @@ width:33.33%;}
 }
 .content .box{
 	height: 200px;
-	background:#9D04CA;
+
 	margin: 1rem;
 	margin-top: 0.5rem;
 	float: left;
@@ -49,7 +49,6 @@ width:33.33%;}
 }
 
 footer{margin-top: 1rem;}
-
 
 li{
 	height: 50px;
