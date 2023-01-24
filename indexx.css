@@ -33,3 +33,28 @@ width:33.33%;}
 	content:"";
 	display: table;
 }
+
+.clearfix:after{
+	clear:both;
+}
+.content .box{
+	height: 200px;
+	background:#9D04CA;
+	margin: 0.5rem;
+	float: left;
+	width:31.33%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
