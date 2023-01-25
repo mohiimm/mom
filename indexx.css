@@ -106,7 +106,7 @@ text-decoration: none;}
 .navbar .me:hover {
 background-color: #ddd;
 color: black;
-font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 }
 
 #sideebar{
