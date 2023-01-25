@@ -1,7 +1,11 @@
 @charset "utf-8";
+:root {--bg: #dcdde1;}
+
+
 /* CSS Document */
 html{background:#5A255A;
 }
+
 header{
 	background-color: #5A255A;
 	text-align:center;
