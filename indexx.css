@@ -103,7 +103,7 @@ pre{font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New 
 font-size:20px;
 text-shadow:0px 5px 2px gray  ;}
 .l{padding:1rem 0rem;
-		background: #6E6E6E;	
+		background-image: linear-gradient(to right,purple,pink);	
   overflow: hidden;
    position: sticky;
 position: -webkit-sticky;
@@ -111,6 +111,7 @@ top: 0;
 font-size: 20px;
 color: black;
 	line-height: 30px;
+border-style:solid;
 }
 .l:hover
 {
