@@ -1,15 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
-html{background:purple;}
+html{background:#5A255A;
+}
 header{
-	background-color: purple;
+	background-color: #5A255A;
 	text-align:center;
 	padding:2rem 0rem;
 	color: white;
 }
 
 .section {
-	background-color: purple;
+	background-color:#5A255A;
 	text-align: center;
 	padding:2rem 0rem;
 	color: white;
@@ -102,8 +103,8 @@ font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roma
 pre{font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 font-size:20px;
 text-shadow:0px 5px 2px gray  ;}
-.l{padding:1rem 0rem;
-		background-image: linear-gradient(to right,purple,pink);	
+.l{padding:0.5rem 0rem;
+		background-image: linear-gradient(to right,gray,pink);	
   overflow: hidden;
    position: sticky;
 position: -webkit-sticky;
@@ -119,6 +120,36 @@ border-style:solid;
 color: black;
 font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	
+	
+	
+	
+}
+
+h3{
+	border: rgba(0,0,0,1.00);
+	border-style: solid;
+color: black;
+	width: 300px;
+	height: 50px;
+	text-align:center;
+	float:right;
+	padding: 10px;
+	font-size: 30px;
+	background:linear-gradient(to right,gray,purple);
+}
+
+h2{
+	
+	direction: rtl;
+color: black;
+border-style: solid;
+	margin-bottom: 0.5rem;
+	text-align:center;
+	float:right;
+	padding: 50px;
+	width:700px;
+	font-size: 30px;
+	background:linear-gradient(to right,purple,pink);
 	
 	
 	
