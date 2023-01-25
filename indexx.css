@@ -1,57 +1,65 @@
 @charset "utf-8";
 /* CSS Document */
+html{background:purple;}
 header{
 	background-color: purple;
 	text-align:center;
 	padding:2rem 0rem;
 	color: white;
 }
+
 .section {
 	background-color: purple;
 	text-align: center;
 	padding:2rem 0rem;
 	color: white;
 }
-.sidebar{
-	float: left;
-	width: 33.33%;
-}
-
-.content{
-	float: right;
-	width: 66.66%;
-}
 .about{
 	float: left;
 	width: 66.66%;
-
 }
+.sidebar{
+	float: left;
+height: 100%;
+	width: 30.66%;
+	text-align: center;
+}
+.content{
+	float: right;
+	width: calc(66.66%-1rem);
+	
+}
+
+
 .contact{float:right;
 width:33.33%;}
 
 .clearfix:after,
 .clearfix:before{
-	content:"";
+	content:" ";
 	display: table;
 	
 }
-
 .clearfix:after{
 	clear:both;
 }
+
+
 .content .box{
 	height: 200px;
+	margin: 2.25rem;
+width: calc(33.33%-1rem);
+	float: right;
 
-	margin: 1rem;
-	margin-top: 0.5rem;
-	float: left;
-	width:25.33%;
 }
 
 footer{margin-top: 1rem;}
 
+
 li{
-	height: 50px;
+	height: 30px;
+
+	
 }
 .navbar{
 	background: #6E6E6E;	
@@ -77,12 +85,30 @@ text-decoration: none;}
 	float: left;
 	
 }
-.c1{float: right;}
+.c1.me{float:right;}
 .navbar .me:hover {
 background-color: #ddd;
 color: black;
 font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
+
+#sideebar{
+	float: left;
+	width: 80.33%;
+	height: auto;
+	text-align: center;
+	}
+
+
+.active:hover{
+	background-color: #ddd;
+     color: black;
+}
+
+
+
+
+
 
 
 
