@@ -95,23 +95,34 @@ font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roma
 #sideebar{
 	float: left;
 	width: 80.33%;
-	height: auto;
+	height:100%;
 	text-align: center;
+	
 	}
-
-
+.l{padding:1rem 0rem;
+		background: #6E6E6E;	
+  overflow: hidden;
+   position: sticky;
+position: -webkit-sticky;
+top: 0;
+font-size: 20px;
+color: black;
+	line-height: 30px;
+}
+.l:hover
+{
+	background-color: #ddd;
+color: black;
+font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	
+	
+	
+	
+}
 .active:hover{
 	background-color: #ddd;
      color: black;
 }
-
-
-.buy{
-	align:right;
-}
-
-
-
 
 
 
