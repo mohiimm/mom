@@ -1,5 +1,14 @@
 @charset "utf-8";
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+outline: none;
+list-style: none;
+font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
 
+body{background: #e4eefa;
+}
 
 /* CSS Document */
 html{background:#3C0338;
@@ -14,7 +23,7 @@ html{background:#3C0338;
 }
 
 .wrapper .search_box{
-	width: 50px;
+	width: 500px;
 	background: #fff;
 	border-radius: 5px;
 	height: 65px;
@@ -27,7 +36,8 @@ html{background:#3C0338;
 	width: 150px;
 	border-right: 2px solid #dde2f1;
 	color: #9fa3b1;
-	position: relative;cursor: pointer;
+	position: relative;
+	cursor: pointer;
 
 }
 
@@ -48,6 +58,70 @@ html{background:#3C0338;
 	box-shadow: 8px 8px 6px -10px #b3c6ff;
 	
 }
+
+.wrapper .search_box .dropdown ul.active{
+	display: block;
+}
+
+
+.wrapper .search_box .dropdown ul li{
+	padding-bottom: 20px;
+}
+.wrapper .search_box .dropdown ul li:last-child{
+	padding-bottom: 0;
+}
+
+.wrapper .search_box .default_option ul li:hover{
+	color:#6f768d;
+}
+.wrapper .search_box .dropdown:before{
+	content: "";
+	position: absolute;
+	top: 18px;
+	right:20px;
+	border: 8px solid;
+	border-color: #5078ef transparent transparent transparent;
+}
+.wrapper .search_box .search-field{
+width: 350px;
+	height: 100%;
+	position: relative;
+
+	
+}
+.wrapper .search_box .search-field .input{
+	width: 100%;
+	height: 100%;
+	border: 0px;
+	font-size: 16px;
+	padding-left: 20px;
+	padding-right: 38px;
+	color: #6f768d;
+}
+
+.wrapper .search_box .search-field .fas{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size:22px;color: #5078ef;
+	cursor: pointer;
+}
+::ms-input-placeholder{
+	color: #9fa3b1;
+}
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
 
 .section {
 	background-color:#3C0338;
@@ -196,12 +270,12 @@ border-style: solid;
 	margin-bottom: 0.5rem;
 	text-align:center;
 	float:right;
-	padding: 50px;
-	width:700px;
+	padding: 20px;
+	width:500px;
 	font-size: 30px;
-	background:linear-gradient(to right,gray,purple);
+	background:purple;
 	
-	
+	align-self: center;
 	
 }
 .active:hover{
